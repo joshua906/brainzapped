@@ -643,7 +643,15 @@ playlist
 .categories h3 {
 	text-align: left;
 	}
-
+.category-layout ul li {
+    list-style-type: none;
+    margin-left: -36px;
+}
+.category-layout li {
+	list-style-type: none;
+	margin-left: -36px;
+	
+	}
 /****************image hover effects*******************/
 [class^='imghvr-'],
 [class*=' imghvr-'] {
@@ -744,7 +752,7 @@ playlist
 }
 
 /****  icons  ******/
-.fa .fa-play-circle-o {
+/*.fa .fa-play-circle-o {
 	color: #fff;
 	z-index: 100;
 	position: absolute;
@@ -752,7 +760,7 @@ playlist
 }
 .fa {
     padding: 12% 39%;
-}
+}*/
 
 /***********loading image***************/
 
