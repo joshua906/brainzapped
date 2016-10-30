@@ -593,6 +593,9 @@ footer
 	margin-top: 20px;
 	padding-bottom: 42px;
 	}
+.footer h4 {
+	color: #01a433;
+}
 	
 .footer p {
 		font-size: 1em;
@@ -669,6 +672,11 @@ playlist
 }
 .video-list {
  	padding-top: 30px;
+}
+.card-video {
+	width: 94%;
+    border-radius: 0px;
+    margin-top: 0px;
 }
 /****************image hover effects*******************/
 [class^='imghvr-'],
