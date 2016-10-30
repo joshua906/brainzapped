@@ -630,11 +630,20 @@ playlist
     padding: 8px 16px;
 	background-color: #fbfbfb;
 }
+/************video page *********************/
 .video-header h1 {
     color: purple;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+.categories {
+	background-color: #fff;
+	}
+.categories h3 {
+	text-align: left;
+	}
+
 /****************image hover effects*******************/
 [class^='imghvr-'],
 [class*=' imghvr-'] {
