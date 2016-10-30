@@ -650,8 +650,23 @@ playlist
 .category-layout li {
 	list-style-type: none;
 	margin-left: -36px;
-	
 	}
+.category-layout li {
+	font-family: 'Raleway', sans-serif;
+    color: #888888;
+    letter-spacing: .4px;
+    font-size: 1.1em;
+    line-height: 22px;
+}
+.fa {
+	padding-right: 9px;
+}
+.fa-caret-right {
+	color: purple;
+}
+.video-list {
+ 	padding-top: 30px;
+}
 /****************image hover effects*******************/
 [class^='imghvr-'],
 [class*=' imghvr-'] {
