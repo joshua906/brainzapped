@@ -98,7 +98,10 @@ em {
     50% { opacity:0; }
     100% { opacity:1; }
 }
-	
+@media (min-width: 1200px)
+.container {
+    width: 1050px;
+}
 /**********top nav******************/
 .top-nav p {
 	font-size: .7em;
@@ -587,6 +590,8 @@ img {
 footer
 ----------*/
 .footer {
+	background-image: url(../img/footer.jpg);
+	background-size: cover;
 	background-color: #240828;
 	color: #fff;
 	padding-top: 15px;
@@ -642,7 +647,9 @@ playlist
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
+.video-list {
+	margin: 30px 0px;
+}
 .categories {
 	background-color: #fff;
 	}
@@ -673,8 +680,11 @@ playlist
 .video-list {
  	padding-top: 30px;
 }
+.video-list h2 {
+	color:purple;
+	}
 .card-video {
-	width: 94%;
+	width: 100%;
     border-radius: 0px;
     margin-top: 0px;
 }
