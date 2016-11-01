@@ -582,7 +582,8 @@ img {
 	height: 168px;
 	}
 .most-watched h6 {
-	    padding-top: 15px;
+	padding-top: 15px;
+	padding-right: 10px;
     color: purple;
     text-transform: uppercase;
 }
@@ -936,3 +937,4 @@ playlist
         -webkit-transition: all 0.3s 1s ease-out;  
                 transition: all 0.3s 1s ease-out;
     }
+	
