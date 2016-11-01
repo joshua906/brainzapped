@@ -98,9 +98,10 @@ em {
     50% { opacity:0; }
     100% { opacity:1; }
 }
-@media (min-width: 1200px)
+@media (min-width: 1200px){
 .container {
     width: 1050px;
+}
 }
 /**********top nav******************/
 .top-nav p {
