@@ -723,6 +723,12 @@ input[type=submit] {
 	width: 100%;
     height: auto;
 	}
+	
+/***************video pages post**********************/
+
+.video-post{
+	    margin: 40px 0px;
+}
 /****************image hover effects*******************/
 [class^='imghvr-'],
 [class*=' imghvr-'] {
