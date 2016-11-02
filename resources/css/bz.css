@@ -715,6 +715,14 @@ input[type=submit] {
 	margin-top: 15px;
     color: #fff;
 }
+/*************Products*****************/
+.products {
+	margin: 35px 0px;
+}
+.product-picture img {
+	width: 100%;
+    height: auto;
+	}
 /****************image hover effects*******************/
 [class^='imghvr-'],
 [class*=' imghvr-'] {
