@@ -10,6 +10,14 @@ a {
 	color: #01a433;
 	text-decoration: none;
 	}
+.green {
+	color: #0ba349;
+	
+	}
+.purple {
+	color: #6b2868;
+	
+}
 .overlay {
 	background-color: #fbfbfb;
 	}
@@ -18,13 +26,14 @@ h1,h2,h3,h4,h5,h6 {
 	}
 p {
     font-family: 'Raleway', sans-serif;
-    color: #888888;
+    color: rgb(17,17,17);
     letter-spacing: .4px;
     font-size: 1.1em;
     line-height: 22px;
+	font-weight:500;
 	}
 .banner {
-	background-color: #fbfbfb;
+	background-color: rgba(17,17,17,0.05);
 	border-radius: 3px;
 	}
 .box-shadow {
@@ -541,7 +550,7 @@ img {
 
 .container-card {
     padding: 30px 30px;
-	background-color: #fbfbfb;
+	background-color: rgba(17,17,17,0.05);
 	margin-bottom: 30px;
 }
 .category-text {
