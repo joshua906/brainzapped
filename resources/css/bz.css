@@ -644,16 +644,22 @@ playlist
 	background-color: #fbfbfb;
 }
 /************video page *********************/
+.video-header {
+	background-image:url(../img/background.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;}
 .video-header h1 {
-    color: purple;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    color: #fff;
+    padding-top: 65px;
+    padding-bottom: 65px;
 }
 .video-list {
 	margin: 30px 0px;
 }
 .categories {
 	background-color: #fff;
+	margin-top: 50px;
 	}
 .categories h3 {
 	text-align: left;
