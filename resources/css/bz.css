@@ -556,7 +556,7 @@ img {
 
 .container-card {
     padding: 30px 40px;
-	background-color: rgba(17,17,17,0.05);
+	background-color: #fbfbfb;
 	margin-bottom: 30px;
 }
 .container-card-video {
@@ -569,7 +569,45 @@ img {
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 	}
-	
+.vlog-format-action.small {
+    height: 80px;
+    width: 80px;
+    left: 135px;
+    bottom: 0;
+    top: 50px;
+    padding: 22px 0 0 15px;
+}
+.vlog-format-action {
+    top: 50%;
+    left: 50%;
+    transition: all .25s ease-in-out;
+    border: 2px solid #FFF;
+    background: rgba(0,0,0,.5);
+    border-radius: 77%;
+    cursor: pointer;
+}
+.vlog-format-action, .vlog-icon {
+    position: absolute;
+    line-height: 1;
+    outline: 0;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    z-index: 5;
+    text-align: center;
+}
+.vlog-format-action i, .vlog-icon i {
+    color: #FFF;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+.vlog-format-action.small i {
+    font-size: 30px;
+}
+.small, small {
+    font-size: 85%;
+}	
 	/*----------------
 	most watched 
 	------------------*/
