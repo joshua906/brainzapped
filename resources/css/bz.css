@@ -644,6 +644,36 @@ img {
 .small, small {
     font-size: 85%;
 }	
+@media only screen and (max-width: 991px){
+.vlog-format-action.small {
+    height: 80px;
+    width: 80px;
+    left: 88px;
+    bottom: 0;
+    top: 26px;
+    padding: 22px 0 0 15px;
+}
+}
+@media only screen and (max-width: 500px){
+.vlog-format-action.small {
+    height: 80px;
+    width: 80px;
+    left: 163px;
+    bottom: 0;
+    top: 71px;
+    padding: 22px 0 0 15px;
+}
+}
+@media only screen and (max-width: 375px){
+.vlog-format-action.small {
+    height: 80px;
+    width: 80px;
+    left: 149px;
+    bottom: 0;
+    top: 59px;
+    padding: 22px 0 0 15px;
+}
+}
 	/*----------------
 	most watched 
 	------------------*/
@@ -686,20 +716,27 @@ img {
 footer
 ----------*/
 .footer {
-	background-image: url(../img/footer.jpg);
-	background-size: cover;
-	background-color: #240828;
-	color: #fff;
-	padding-top: 15px;
-	margin-top: 20px;
-	padding-bottom: 42px;
+    background-image: url(../img/footer.jpg);
+    background-size: cover;
+    background-color: #240828;
+    color: #fff;
+    padding-top: 15px;
+    margin-top: 25px;
+    padding-bottom: 42px;
+
 	}
-.footer h4 {
-	color: #01a433;
+.footer a {
+	color: #959595;
+}
+.footer h3 {
+	color: #fff;
+	text-align: left;
+	padding-top: 20px;
 }
 	
 .footer p {
 		font-size: 1em;
+		color: #959595;
 		}
 .footer ul li {
 	text-decoration: none;
@@ -790,6 +827,44 @@ playlist
 .video-list {
  	padding-top: 0px;
 }
+.video-list .vlog-format-action.small {
+    height: 80px;
+    width: 80px;
+    left: 213px;
+    bottom: 0;
+    top: 99px;
+    padding: 22px 0 0 15px;
+}
+@media only screen and (max-width:768px){
+ .video-list .vlog-format-action.small {
+    height: 80px;
+    width: 80px;
+    left: 142px;
+    bottom: 0;
+    top: 57px;
+    padding: 22px 0 0 15px;
+}
+}
+@media only screen and (max-width:425){
+.video-list .vlog-format-action.small {
+    height: 80px;
+    width: 80px;
+    left: 163px;
+    bottom: 0;
+    top: 57px;
+    padding: 22px 0 0 15px;
+}
+}
+@media only screen and (max-width:375px){
+.video-list .vlog-format-action.small {
+    height: 80px;
+    width: 80px;
+    left: 112px;
+    bottom: 0;
+    top: 36px;
+    padding: 22px 0 0 15px;
+}
+}
 .video-list h2 {
 	color:purple;
 	}
@@ -799,6 +874,9 @@ playlist
     margin-top: 0px;
 }
 /**********Contact page***********/
+.bio h1 {
+	padding: 25px 0px;
+}
 .contact-header {
 	background-image: url(../img/background.jpg);
     background-size: cover;
@@ -813,7 +891,7 @@ playlist
 }
 
 .contact {
-	padding: 40px 0px;
+	padding: 40px 10px;
 }
 input[type=text] {
 	width: 100%;
