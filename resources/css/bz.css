@@ -937,104 +937,6 @@ textarea {
 .video-post{
 	    margin: 40px 0px;
 }
-/****************image hover effects*******************/
-[class^='imghvr-'],
-[class*=' imghvr-'] {
-  position: relative;
-  margin: 0px;
-  max-width: 100%;
-  background-color: rgba(128,0,128,.5);
-  color: #fff;
-  overflow: hidden;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-}
-[class^='imghvr-'] > img,
-[class*=' imghvr-'] > img {
-  vertical-align: top;
-  max-width: 100%;
-}
-[class^='imghvr-'] figcaption,
-[class*=' imghvr-'] figcaption {
-  background-color:rgba(128,0,128,.5) ;
-  padding: 30px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  color: #ffffff;
-}
-[class^='imghvr-'] figcaption h1,
-[class*=' imghvr-'] figcaption h1,
-[class^='imghvr-'] figcaption h2,
-[class*=' imghvr-'] figcaption h2,
-[class^='imghvr-'] figcaption h3,
-[class*=' imghvr-'] figcaption h3,
-[class^='imghvr-'] figcaption h4,
-[class*=' imghvr-'] figcaption h4,
-[class^='imghvr-'] figcaption h5,
-[class*=' imghvr-'] figcaption h5,
-[class^='imghvr-'] figcaption h6,
-[class*=' imghvr-'] figcaption h6 {
-  color: #ffffff;
-}
-[class^='imghvr-'] a,
-[class*=' imghvr-'] a {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-}
-[class^='imghvr-'],
-[class*=' imghvr-'],
-[class^='imghvr-']:before,
-[class^='imghvr-']:after,
-[class*=' imghvr-']:before,
-[class*=' imghvr-']:after,
-[class^='imghvr-'] *,
-[class*=' imghvr-'] *,
-[class^='imghvr-'] *:before,
-[class^='imghvr-'] *:after,
-[class*=' imghvr-'] *:before,
-[class*=' imghvr-'] *:after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
-}
-/* imghvr-fade-*
-   ----------------------------- */
-[class^='imghvr-fade'] figcaption,
-[class*=' imghvr-fade'] figcaption {
-  opacity: 0;
-}
-[class^='imghvr-fade']:hover > img,
-[class*=' imghvr-fade']:hover > img {
-  opacity: 0;
-}
-[class^='imghvr-fade']:hover figcaption,
-[class*=' imghvr-fade']:hover figcaption {
-  opacity: 1;
-}
-[class^='imghvr-fade']:hover > img,
-[class*=' imghvr-fade']:hover > img,
-[class^='imghvr-fade']:hover figcaption,
-[class*=' imghvr-fade']:hover figcaption {
-  -webkit-transform: translate(0px, 0px);
-  transform: translate(0px, 0px);
-}
-/* imghvr-fade-in-down
-   ----------------------------- */
-.imghvr-fade-in-down figcaption {
-  -webkit-transform: translate(0, -15%);
-  transform: translate(0, -15%);
-}
 
 /****  icons  ******/
 /*.fa .fa-play-circle-o {
@@ -1047,7 +949,7 @@ textarea {
     padding: 12% 39%;
 }*/
 
-/***********loading image***************/
+/***********preloader***************/
 
 #loader-wrapper {
     position: fixed;
@@ -1067,12 +969,12 @@ textarea {
     margin: -75px 0 0 -75px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #01a433;
+    border-top-color: #27292F;
 
     -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
     animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 
-    z-index: 2001;
+    z-index: 1001;
 }
 
     #loader:before {
@@ -1084,7 +986,7 @@ textarea {
         bottom: 5px;
         border-radius: 50%;
         border: 3px solid transparent;
-        border-top-color: #240828;
+        border-top-color: #ff6015;
 
         -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
         animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -1099,7 +1001,7 @@ textarea {
         bottom: 15px;
         border-radius: 50%;
         border: 3px solid transparent;
-        border-top-color: #53b54f;
+        border-top-color: gray;
 
         -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
           animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
