@@ -6,6 +6,22 @@
 Global Changes
 
 ----------------------*/
+.container-single {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 1200px){
+	.container-single{
+		width:768px;
+		}
+}
+@media (min-width: 768px){
+.container-single {
+    width: 750px;
+}
+}
 a {
 	color: #01a433;
 	text-decoration: none;
@@ -88,6 +104,22 @@ p {
 	font-family: 'Montserrat', sans-serif;
 	transition-duration: .8s ease-in-out;
 }
+.button-more {
+    background-color: purple;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 14px 0px;
+    cursor: pointer;
+    margin-bottom: 22px;
+    width: 200px;
+    border-radius: 0px;
+    padding: 14px 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
 em {
 	font-size: .8em;
 	}
@@ -117,6 +149,7 @@ em {
 .container {
     width: 1050px;
 }
+
 }
 /**********top nav******************/
 .top-nav p {
@@ -544,7 +577,10 @@ top:0;
 .card h6 {
 	color: rgb(221,221,221);
 }
-
+.more-button {
+	text-align: center;
+	
+}
 /*.card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }*/
@@ -815,6 +851,10 @@ textarea {
 	}
 	
 /***************video pages post**********************/
+.iframe-video {
+	margin-top: 40px;
+    padding: 10px 13px;
+}
 
 .video-post{
 	    margin: 40px 0px;
